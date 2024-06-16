@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero travel</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/d05c174ddb.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&family=Work+Sans:ital@1&display=swap');
 
@@ -38,8 +39,63 @@
         <section class="banner-container">
             <div class="banner">
                 <h1 class="motion-title">EXPLORE YOUR TRAVEL</h1>
-                <img src="../hero-travel/Images/banner.png" alt="" class="ban-pic"></div>
-                <p class="motion-description">In hero travel ,we make your travel heroic.Hero-travel makes shure to make your travel memories heroic</p>
+                <img src="../hero-travel/Images/banner.png" alt="" class="ban-pic">
+            </div>
+            <p class="motion-description">In hero travel ,we make your travel heroic.Hero-travel makes shure to make
+                your travel memories heroic</p>
+            <div class="destination-container">
+                <input type="text" placeholder="Where to" class="location">
+                <form action="" class="dep-time"> <label for="travel-time"></label>
+                    <select id="time" name="travel-time" placeholder="select type">
+                        <option value="">When</option>
+                        <option value="morning">Morning</option>
+                        <option value="noon">Afternoon</option>
+                        <option value="night">Night</option>
+                    </select>
+                </form>
+
+
+                <form class="vehicle-type">
+                    <label for="travel-class"></label>
+                    <select id="class" name="travel-class" placeholder="select type">
+                        <option value="">Select type</option>
+                        <option value="first">First class</option>
+                        <option value="economy ">Economy class</option>
+                        <option value="business">Business class</option>
+
+                    </select>
+                    <button class="btn-primary"><input type="hidden" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>find now</button>
+
+                </form>
+
+            </div>
+
+        </section>
+        <section class="feature-container">
+            <div class="feature">
+                <h1 class="feature-title">Our Popular tours</h1>
+                <div class="feat-description">
+                    <p>Hero Travels provides various service and client friendly discount packages.We have various
+                        popular tour packages. some of our populr tour Packages have explained below-</p>
+
+
+                    <ul>
+                        <li>The most popular tour of hero travel is the TOur to Thailand.it is known as our most popular
+                            internatinal tourist package. </li>
+                        <li>We have various international tour plans on various tourist cities like venice, paris etc.
+                        </li>
+                        <li>Not only inter national we have the best domestic travel plans that are the most popular in
+                            our country</li>
+                    </ul>
+                    <p>Hero travels also covers best accommodation plans, better transportation service ,guide service
+                        durig the travel also great nunmber of discounts on the services. </p>
+                </div>
+                <button class="btn-primary">Read more</button>
+            </div>
+            <div class="feat-photo">
+                <img src="../hero-travel/Images/Rectangle 4.png" alt="">
+            </div>
         </section>
     </header>
     <main></main>

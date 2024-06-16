@@ -1,4 +1,15 @@
 /* common shared styles */
+.btn-primary {
+    height: 52px;
+    width: 174px;
+    border: 2px solid red;
+    background-color: rgb(255, 84, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
 /* header styles */
 header {
     padding: 50px 140px;
@@ -45,29 +56,103 @@ li {
     text-align: center;
     color: rgb(46, 66, 56);
     border-radius: 16px;
-    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);;
-    
-    
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
+    ;
+
+
 
 }
 
 .ban-pic {
     width: 100%;
-   
+
 }
 
 .motion-title {
     position: absolute;
     font-weight: 800;
     font-size: 4rem;
-    bottom:65%;
+    bottom: 65%;
     left: 20%;
 }
-.motion-description{
+
+.motion-description {
     position: absolute;
     font-weight: 500;
     font-size: 1.25rem;
-    bottom:40%;
-    left:20%;
-    color: bisque;
+    bottom: 50%;
+    left: 20%;
+    color: rgb(235, 230, 225);
+}
+
+.destination-container {
+    position: absolute;
+    width: 800px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+    border-radius: 8px;
+    bottom: 30%;
+    left: 20%;
+
+    background: rgba(255, 255, 255, 0.3);
+
+
+}
+
+#time {
+    height: 52px;
+    width: 174px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.5);
+}
+
+#class {
+    height: 52px;
+    width: 174px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.5);
+
+}
+
+.location {
+    height: 52px;
+    width: 174px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.5);
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    gap: 10px;
+}
+
+.feature-title {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.feat-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
 }
