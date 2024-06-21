@@ -1,3 +1,10 @@
+* {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 /* common shared styles */
 .btn-primary {
     height: 52px;
@@ -56,7 +63,7 @@ li {
     text-align: center;
     color: rgb(46, 66, 56);
     border-radius: 16px;
-    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
     ;
 
 
@@ -149,10 +156,170 @@ li {
 
 .feat-description {
     color: rgba(19, 19, 24, 0.7);
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* main styles */
+.tour-title {
+    text-align: center;
+    font-family: Mulish;
+    ;
+}
+
+.t-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.t-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.d-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+}
+
+.d-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+
+}
+
+.d-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+
+}
+
+
+
+.i-1 {}
+
+
+.t-1 {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 22%;
+    top: 35%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.t-2 {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    right: 21%;
+    top: 35%;
+}
+
+.i-3 {}
+
+.t-3 {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    right:75% ;
+    top:35% ;
+}
+
+.i-4 {}
+
+.t-4 {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    right:40% ;
+    top:30% ;
+}
+
+
+
+.t-5 {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    right:9.5% ;
+    top:30% ;
+}
+
+
+
+.t-6 {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    left: 18% ;
+    top:35% ;
+}
+
+
+
+.t-7 {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    left:60% ;
+    top:35% ;
 }
