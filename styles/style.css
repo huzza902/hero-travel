@@ -62,9 +62,12 @@ li {
     position: relative;
     text-align: center;
     color: rgb(46, 66, 56);
+
+
     border-radius: 16px;
+
     background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
-    ;
+
 
 
 
@@ -78,7 +81,7 @@ li {
 .motion-title {
     position: absolute;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3.4rem;
     bottom: 65%;
     left: 20%;
 }
@@ -86,7 +89,7 @@ li {
 .motion-description {
     position: absolute;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     bottom: 50%;
     left: 20%;
     color: rgb(235, 230, 225);
@@ -256,8 +259,8 @@ li {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    right:75% ;
-    top:35% ;
+    right: 75%;
+    top: 35%;
 }
 
 .i-4 {}
@@ -272,8 +275,8 @@ li {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    right:40% ;
-    top:30% ;
+    right: 40%;
+    top: 30%;
 }
 
 
@@ -288,8 +291,8 @@ li {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    right:9.5% ;
-    top:30% ;
+    right: 9.5%;
+    top: 30%;
 }
 
 
@@ -304,8 +307,8 @@ li {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    left: 18% ;
-    top:35% ;
+    left: 18%;
+    top: 35%;
 }
 
 
@@ -320,6 +323,97 @@ li {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    left:60% ;
-    top:35% ;
+    left: 60%;
+    top: 35%;
+}
+
+.reason {
+    max-width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.reason-container{
+    max-width: 1200px;
+}
+
+.reason-title {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.reason-des {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.r-icons {
+    height: 50px;
+    width: 40px;
+}
+
+.serve-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    /* max-width::min-content */
+    gap: 20px;
+    /* text-align: center; */
+    /* position: relative; */
+}
+
+.serve {
+    border: 2px solid rgba(251, 181, 99, 0.2);
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 40px;
+    background-color: rgba(251, 181, 99, 0.05);
+    height: 280px;
+    width: 570px;
+
+
+}
+
+.serve-2 {
+    border: 2px solid rgba(41, 206, 246, 0.2);
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgba(41, 206, 246, 0.2);
+    height: 280px;
+    padding: 40px;
+    width: 570px;
+
+}
+
+.serve-container-3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.serve-3 {
+    padding: 40px;
+
+    border: 2px solid rgba(251, 181, 99, 0.2);
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgba(251, 181, 99, 0.05);
+    height: 280px;
+    width: 570px;
 }
