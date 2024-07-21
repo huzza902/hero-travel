@@ -460,7 +460,8 @@ li {
 
 
 }
-.sato li{
+
+.sato li {
     list-style: none;
     display: flex;
 }
@@ -470,16 +471,17 @@ li {
     gap: 10px;
 
 }
-.sato>ul{
+
+.sato>ul {
     display: flex;
     gap: 10px;
 }
 
 .satorini li>i {
     color: rgb(255, 84, 0)
-
 }
-.sato li>i{
+
+.sato li>i {
     color: rgb(255, 84, 0)
 }
 
@@ -506,10 +508,11 @@ li {
     margin-top: 30px;
     margin-left: 530px;
 
-    
+
 }
-.sato{
-    
+
+.sato {
+
     color: rgb(90, 90, 93);
     font-family: Mulish;
     font-size: 16px;
@@ -532,11 +535,113 @@ li {
     margin-top: 30px;
     margin-left: 70px;
 
-    
+
 }
-.more{
+
+.more {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
+
+/* mountain */
+.mountain-container {
+    max-width: 100%;
+    
+}
+
+.mountain {
+    text-align: center;
+    margin: 40px;
+}
+
+.mount-title {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+
+}
+
+.mount-des {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+    letter-spacing: 0%;
+    /* text-align: center; */
+    margin: 30px;
+    /* max-width: 1200px;   */
+}
+
+.mount-feat-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 40px;
+}
+
+.pic {
+    border-radius: 16px;
+
+
+}
+.mount-pic{
+    position: relative;
+}
+
+.mount-cap {
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+    color: rgb(236, 229, 229);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+
+}
+.mount-feat{
+    text-align: left;
+}
+
+
+
+
+/* newsletter */
+.newsletter-container{
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    border: 1px solid  rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 20px;
+    
+}
+.subscription input[type="text"],[type="email"] ,[type="submit"]{
+    
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px dotted red;
+    font-size: 18px;
+    width: 80%;
+
+}
+h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+/* footer */
